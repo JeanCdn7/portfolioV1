@@ -1,0 +1,382 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+
+
+
+
+
+/*Tout*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    text-decoration: none;
+    scroll-behavior:smooth
+}
+
+/*Page*/
+body {
+    background-color: #ffffff;
+    height: 100vh;
+
+}
+
+/*Listes*/
+
+ul li {
+    list-style: disc;
+    
+}
+ul li::marker{
+    color: #0f76ba5f;
+}
+
+/*Lignes*/
+.line {
+    border-color: #0f75ba;
+    background-color: #0f75ba;
+    margin: 8px 24px;
+    height: 0;
+
+
+}
+
+
+
+
+/*Titre 1*/
+h1 {
+    color: #0d5d97;
+    text-align: center;
+    margin: 24px;
+    font-size: 46px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+/*Titre 2*/
+h2 {
+    color: #0c2a45;
+    margin: 8px 24px;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+/*Titre 3*/
+h3 {
+    color: #124268;
+    margin: 8px 24px;
+    font-size: 28px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+/*Titre 4*/
+h4 {
+    color: #0c2a45;
+    margin: 40px 0 0 56px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+/*Titre 5*/
+h5 {
+    color: #124268;
+    margin: -8px 0 0 80px;
+    font-size: 32px;
+    font-weight: 500;
+}
+/*Menu de navigation*/
+nav {
+    display: flex;
+    background: #abbdcc;
+    justify-content: center;
+    gap: 22px;
+    padding: 4px;
+    border: 4px #abbdcc;
+    border-radius: 5px;
+    margin: 24px;
+}
+
+
+/*Boutons du menu*/
+.shortcut {
+    background-color: #abbdcc;
+    padding: 12px;
+    border-radius: 5px;
+    color: #0c2a45;
+}
+
+.shortcut:hover {
+    background-color:#0c2a45;
+    color:white;
+    transition: 400ms
+    
+}
+
+section {
+    margin: 24px;
+    padding: 8px;
+    background-color: #ebf4fb;
+    border-radius: 5 px;
+}
+
+/*Section à propos de moi*/
+
+.ab-me-contenu {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 80px;
+}
+
+.pdp{
+    width: 20%;
+    height: 20%;
+    float: left;
+    border-radius: 10px;
+}
+
+
+
+.ab-me-nom {
+    margin: 8px 24px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #0d5d97;
+}
+
+.ab-me-etu {
+    margin: 8px 24px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.ab-me-std {
+    margin: 24px 44px;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+
+/*Section formation*/
+
+.formation-std{
+    margin: 0 0 0 80px;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.formation-date{
+    color: #0c2a45;
+    margin: 40px 0 0 56px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.formation-school{
+    color: #124268;
+    margin: -8px 0 0 80px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+/*Section expérience professionnelle*/
+
+.exp-div{
+    background-color: #abbdcc;
+    margin: 40px 5px;
+    padding: 1px 40px 40px 0px;
+    border-radius: 5px;
+}
+.exp-std{
+    margin: 0 0 0 80px;
+    font-size: 20px;
+    font-weight: 400;   
+}
+
+.exp-emploi{
+    color: #0c2a45;
+    margin: 40px 0 0 56px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.exp-date{
+    color: #124268;
+    margin: -8px 0 0 80px;
+    font-size: 24px;
+    font-weight: 500;
+}
+/*Section compétences*/
+
+.comp-name{
+    color: #0c2a45;
+    margin: 1px 0px 0px 56px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.comp-std{
+    margin: 4px 0px 16px 64px;
+    font-size: 20px;
+    font-weight: 400;   
+}
+
+.progress-bar {
+    margin: 0px 0px 4px 64px;
+}
+  
+.percentage {
+    color: #0d5d97;
+    font-size: 16px;
+    margin-left: 16px;
+  }
+
+
+/*Section projets techniques*/
+.proj-tec{
+    display: flex;
+    flex-direction: column;
+    background-color: #d9e8f5;
+    border : 2px solid #2a5b85;
+    border-radius: 5px;
+    margin: 12px 120px;
+}
+
+.proj-name{
+    text-align: center;
+    color: #0c2a45;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 16px;
+    margin-bottom: 48px;
+    text-decoration: underline;
+}
+
+.proj-theme{
+    text-align: center;
+    color: #124268;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 3px;
+    margin-bottom: 16px;
+}
+
+.proj-std{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 3px 40px 16px 40px;
+}
+
+#bouton-dl{
+    color: white;
+    background-color: #2a5b85;
+    text-align: center;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+
+
+/*Section divers*/
+.divers-class{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 180px;
+    margin: auto;
+  }
+  
+  .divers-img {
+    max-width: 180px;
+    max-height: 180px;
+  }
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+.divers-div{
+    background-color: #0e8af621;
+    
+    border-radius: 10px;
+    padding: 0px;
+    margin: 5px;
+}
+.divers-name{
+    color: white;
+    padding: 5px;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #124268;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.divers-std{
+    margin: 0px;
+    font-size: 20px;
+    color: #0c2a45;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px;
+
+}
+/*Section mon CV*/
+
+.monCV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cv-img {
+    width: 40%;
+    height: 40%; 
+    border-radius: 10px;  
+}
+
+.cv-bouton{
+    margin: 32px 0px 32px 0px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #abbdcc;
+    color: #0c2a45;
+    }
+    
+.cv-bouton:hover {
+    background-color:#0c2a45;
+    color:white;
+    transition: 400ms;  
+}
+
+
+/*Section contact*/
+.contact{
+    color: #0c2a45;
+    margin: 40px 0 0 56px;
+    font: size 18px;
+    font-weight: 500;
+}
